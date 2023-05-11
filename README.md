@@ -14,19 +14,20 @@ Please follow below steps to start up the app.
 
     1.  For Windows
 
-             venv\Scripts\activate.bat
+            venv\Scripts\activate.bat
 
     2.  For Linux
 
-             source venv/Scripts/activate
+            source venv/Scripts/activate
 
 3.  Install the requirements by running below command.
 
-            pip install -r requirements.txt
+        pip install -r requirements.txt
 
 4.  Run the DB migrations for creating sqlite3 DB. And migrate the prices DB models.
 
-        python manage.py makemigrations
+        python manage.py makemigrations prices
+        
 
         python manage.py migrate prices
 
