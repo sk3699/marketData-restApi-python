@@ -26,7 +26,7 @@ Please follow below steps to start up the app.
 
 4.  Run the DB migrations for creating sqlite3 DB. And migrate the prices DB models.
 
-    python manage.py makemigrations
+        python manage.py makemigrations
 
         python manage.py migrate prices
 
